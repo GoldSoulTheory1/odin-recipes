@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .header {
+    padding: 10px;
+    background-color: #eee;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 1px;
+    background-color: #333;
+    padding: 10px;
+    height: calc(100% - 40px);
+  }
+  
+  .square {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .square:hover {
+    background-color: black;
+  }
